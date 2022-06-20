@@ -1,0 +1,17 @@
+{
+  "name": "spl_token_transfer",
+  "version": "1.0.0",
+  "description": "SPL Token transfer from one account to another",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dorian Antoniazzo",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.44.1",
+    "typescript": "^4.7.4"
+  }
+}
