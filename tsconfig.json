@@ -5,7 +5,12 @@
       "allowSyntheticDefaultImports": true,
     },
     "files": [
-      "index.ts"
+      "index.ts",
+      "controllers/transferNftPcWalletToUserWallet.ts",
+      "controllers/transferTokenPcWalletToUserWallet.ts",
+      "controllers/transferNftUserWalletToUserWallet.ts",
+      "controllers/transferTokenUserWalletToUserWallet.ts",
+      "privateKeyConvert.ts"
     ],
     "exclude": ["node_modules"]
   }
